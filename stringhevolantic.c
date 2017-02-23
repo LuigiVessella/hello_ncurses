@@ -21,9 +21,6 @@ int main(){
  refresh();
  nanosleep(&tempo, NULL);
   
- refresh();
-
-
  getch();
  endwin();
 
