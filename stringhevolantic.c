@@ -9,22 +9,20 @@ int main(){
  initscr();
  curs_set(0);
 
- mvaddstr(15,4, "Ciao\n");
+ mvaddstr(15,4, "Ciao");
  refresh();
  nanosleep(&tempo, NULL);
 
- mvaddstr(10,20, "Prof\n"); 
+ mvaddstr(10,20, "Prof"); 
  refresh(); 
  nanosleep(&tempo, NULL);
  
- mvaddstr(5,4, "Tutto bene?\n"); 
+ mvaddstr(5,4, "Tutto bene?"); 
  refresh();
  nanosleep(&tempo, NULL);
   
  getch();
  endwin();
-
-
 
 return 0;
 }
